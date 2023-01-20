@@ -1,2 +1,43 @@
-<head></head>
-<body></body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link href="./css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <section class="logarea">
+            <form action="#" id="formulario" method="get"></form>
+            <form action="#" id="formulario" method="get">
+                <h3>LOGAR NO FÓRUM</h3>
+
+                <p>
+                    <input class="xd" id="name" name="name" type="text" placeholder="Nome de usuário" required>
+                    <!-- <i class="fas fa-user"></i> -->
+                </p>
+
+                <p>
+                    <input class="xd biri" id="senha" name="senha" type="password" placeholder="Senha" required>
+                    <!-- <i class="fas fa-key"></i> -->
+                </p>
+
+                <p class="arroz">
+                    <input type="checkbox" id="dev" name="dev" value="sim" checked>
+                    Manter-me conectado.
+                </p>
+
+                <button class="yellow" type="submit">CONECTAR-SE</button>
+                <button class="black">REGISTAR-SE</button>
+            </form>
+        </section>
+    </div> 
+
+</body>
+
+</html>
