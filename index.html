@@ -8,8 +8,8 @@
     <link href="./css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        * {
+<style>
+    * {
     box-sizing: border-box;
     outline: 0;
 }
@@ -37,9 +37,11 @@ body {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
+    border-bottom-width: 1px;
+    border-bottom-right-radius: 100px;
     margin-bottom: 25px;
     padding-bottom: 10px;
     margin-top: 25px;
@@ -74,8 +76,8 @@ form label {
 p {
     display: flex;
     flex-direction: row;
-    align-items: center;}
-margin: 0px;
+    align-items: center;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -98,7 +100,7 @@ input {
     margin: 15px 0 0 0;
 }
 
-form input .xd, form button {
+form input .xd, form a {
     display: block;
 }
 
@@ -115,18 +117,19 @@ form input:focus {
     outline: 1px solid black;
 }
 
-form button {
+form a {
     border: none;
     color: #fff;
     font-size: 14px;
     font-weight: 700;
     height: 47px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
     margin: 5px 0px;
     border-radius: 48px;
     padding: 11px 24px;
     width: 265px;
+    text-align: center;
 }
 
 .yellow {
@@ -143,7 +146,32 @@ form button {
 
 .black:hover {
     background: #000;
-        }</style>
+}
+
+.user1 {
+    position: relative;
+}
+
+.user1 i {
+    position: absolute;
+    right: 70px;
+    top: 13px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, .2);
+}
+
+.key1 {
+    position: relative;
+}
+
+.key1 i {
+    position: absolute;
+    right: 70px;
+    top: 28px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, .2);
+}
+</style>
 </head>
 
 <body>
